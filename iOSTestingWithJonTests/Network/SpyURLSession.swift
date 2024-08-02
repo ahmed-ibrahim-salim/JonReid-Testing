@@ -1,14 +1,13 @@
 //
-//  iOSTestingWithJonTests.swift
+//  SpyURLSession.swift
 //  iOSTestingWithJonTests
 //
 //  Created by Ahmed Ibrahim on 02/08/2024.
 //
 
 import XCTest
-@testable import iOSTestingWithJon
 
-final class iOSTestingWithJonTests: XCTestCase {
+final class SpyURLSession: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.

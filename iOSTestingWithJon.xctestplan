@@ -1,0 +1,29 @@
+{
+  "configurations" : [
+    {
+      "id" : "5C1D23D3-844A-4093-AA92-42DA8C2A67D4",
+      "name" : "Test Scheme Action",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "targetForVariableExpansion" : {
+      "containerPath" : "container:iOSTestingWithJon.xcodeproj",
+      "identifier" : "FCCBC2C62C5CD4FA00A53673",
+      "name" : "iOSTestingWithJon"
+    }
+  },
+  "testTargets" : [
+    {
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:iOSTestingWithJon.xcodeproj",
+        "identifier" : "FCCBC2DC2C5CD4FB00A53673",
+        "name" : "iOSTestingWithJonTests"
+      }
+    }
+  ],
+  "version" : 1
+}

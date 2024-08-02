@@ -7,15 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FC853A682C5D136000F1844B /* Analytics.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC853A672C5D136000F1844B /* Analytics.swift */; };
+		FC853A6A2C5D140500F1844B /* MySingletonAnalytics.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC853A692C5D140500F1844B /* MySingletonAnalytics.swift */; };
+		FC853A6D2C5D14AC00F1844B /* InstanceInitializerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC853A6B2C5D14AC00F1844B /* InstanceInitializerViewController.swift */; };
+		FC853A6E2C5D14AC00F1844B /* InstanceInitializerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC853A6C2C5D14AC00F1844B /* InstanceInitializerViewController.xib */; };
+		FC853A712C5D14BE00F1844B /* ClosureInitializerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC853A6F2C5D14BE00F1844B /* ClosureInitializerViewController.swift */; };
+		FC853A722C5D14BE00F1844B /* ClosureInitializerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC853A702C5D14BE00F1844B /* ClosureInitializerViewController.xib */; };
+		FC853A762C5D14D400F1844B /* MySingletonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC853A742C5D14D300F1844B /* MySingletonViewController.swift */; };
+		FC853A772C5D14D400F1844B /* MySingletonViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC853A752C5D14D300F1844B /* MySingletonViewController.xib */; };
+		FC853A7C2C5D2AB500F1844B /* MySingletonViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC853A7B2C5D2AB500F1844B /* MySingletonViewControllerTests.swift */; };
+		FC853A802C5D2C8C00F1844B /* OverrideViewController.swift OverrideViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC853A7E2C5D2C8C00F1844B /* OverrideViewController.swift OverrideViewController.swift */; };
+		FC853A812C5D2C8C00F1844B /* OverrideViewController.swift OverrideViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC853A7F2C5D2C8C00F1844B /* OverrideViewController.swift OverrideViewController.xib */; };
+		FC853A842C5D2CE800F1844B /* OverrideViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC853A832C5D2CE800F1844B /* OverrideViewControllerTests.swift */; };
+		FCB0C2022C5D4FF30037C334 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FCB0C2012C5D4FF30037C334 /* ViewController.xib */; };
+		FCB0C2032C5D4FF30037C334 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCB0C2002C5D4FF30037C334 /* ViewController.swift */; };
+		FCB0C2082C5D52E00037C334 /* SpyURLSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCB0C2072C5D52E00037C334 /* SpyURLSession.swift */; };
+		FCB0C20A2C5D564B0037C334 /* ViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCB0C2092C5D564B0037C334 /* ViewControllerTests.swift */; };
 		FCCBC2CB2C5CD4FA00A53673 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCCBC2CA2C5CD4FA00A53673 /* AppDelegate.swift */; };
 		FCCBC2CD2C5CD4FA00A53673 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCCBC2CC2C5CD4FA00A53673 /* SceneDelegate.swift */; };
-		FCCBC2CF2C5CD4FA00A53673 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCCBC2CE2C5CD4FA00A53673 /* ViewController.swift */; };
 		FCCBC2D22C5CD4FA00A53673 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = FCCBC2D12C5CD4FA00A53673 /* Base */; };
 		FCCBC2D42C5CD4FB00A53673 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCCBC2D32C5CD4FB00A53673 /* Assets.xcassets */; };
 		FCCBC2D72C5CD4FB00A53673 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = FCCBC2D62C5CD4FB00A53673 /* Base */; };
-		FCCBC2E22C5CD4FB00A53673 /* iOSTestingWithJonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCCBC2E12C5CD4FB00A53673 /* iOSTestingWithJonTests.swift */; };
-		FCCBC2EC2C5CD4FB00A53673 /* iOSTestingWithJonUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCCBC2EB2C5CD4FB00A53673 /* iOSTestingWithJonUITests.swift */; };
-		FCCBC2EE2C5CD4FB00A53673 /* iOSTestingWithJonUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCCBC2ED2C5CD4FB00A53673 /* iOSTestingWithJonUITestsLaunchTests.swift */; };
+		FCCBC2FD2C5CD86900A53673 /* AppLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCCBC2FC2C5CD86900A53673 /* AppLaunchTests.swift */; };
+		FCCBC2FF2C5CD88E00A53673 /* TestingAppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCCBC2FE2C5CD88E00A53673 /* TestingAppDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,29 +40,36 @@
 			remoteGlobalIDString = FCCBC2C62C5CD4FA00A53673;
 			remoteInfo = iOSTestingWithJon;
 		};
-		FCCBC2E82C5CD4FB00A53673 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = FCCBC2BF2C5CD4FA00A53673 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = FCCBC2C62C5CD4FA00A53673;
-			remoteInfo = iOSTestingWithJon;
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FC853A652C5CFD7600F1844B /* iOSTestingWithJon.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = iOSTestingWithJon.xctestplan; sourceTree = "<group>"; };
+		FC853A672C5D136000F1844B /* Analytics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Analytics.swift; sourceTree = "<group>"; };
+		FC853A692C5D140500F1844B /* MySingletonAnalytics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MySingletonAnalytics.swift; sourceTree = "<group>"; };
+		FC853A6B2C5D14AC00F1844B /* InstanceInitializerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstanceInitializerViewController.swift; sourceTree = "<group>"; };
+		FC853A6C2C5D14AC00F1844B /* InstanceInitializerViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = InstanceInitializerViewController.xib; sourceTree = "<group>"; };
+		FC853A6F2C5D14BE00F1844B /* ClosureInitializerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClosureInitializerViewController.swift; sourceTree = "<group>"; };
+		FC853A702C5D14BE00F1844B /* ClosureInitializerViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ClosureInitializerViewController.xib; sourceTree = "<group>"; };
+		FC853A742C5D14D300F1844B /* MySingletonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MySingletonViewController.swift; sourceTree = "<group>"; };
+		FC853A752C5D14D300F1844B /* MySingletonViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MySingletonViewController.xib; sourceTree = "<group>"; };
+		FC853A7B2C5D2AB500F1844B /* MySingletonViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MySingletonViewControllerTests.swift; sourceTree = "<group>"; };
+		FC853A7E2C5D2C8C00F1844B /* OverrideViewController.swift OverrideViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "OverrideViewController.swift OverrideViewController.swift"; sourceTree = "<group>"; };
+		FC853A7F2C5D2C8C00F1844B /* OverrideViewController.swift OverrideViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = "OverrideViewController.swift OverrideViewController.xib"; sourceTree = "<group>"; };
+		FC853A832C5D2CE800F1844B /* OverrideViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverrideViewControllerTests.swift; sourceTree = "<group>"; };
+		FCB0C2002C5D4FF30037C334 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FCB0C2012C5D4FF30037C334 /* ViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
+		FCB0C2072C5D52E00037C334 /* SpyURLSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpyURLSession.swift; sourceTree = "<group>"; };
+		FCB0C2092C5D564B0037C334 /* ViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerTests.swift; sourceTree = "<group>"; };
 		FCCBC2C72C5CD4FA00A53673 /* iOSTestingWithJon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSTestingWithJon.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FCCBC2CA2C5CD4FA00A53673 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FCCBC2CC2C5CD4FA00A53673 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		FCCBC2CE2C5CD4FA00A53673 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		FCCBC2D12C5CD4FA00A53673 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FCCBC2D32C5CD4FB00A53673 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FCCBC2D62C5CD4FB00A53673 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FCCBC2D82C5CD4FB00A53673 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FCCBC2DD2C5CD4FB00A53673 /* iOSTestingWithJonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOSTestingWithJonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		FCCBC2E12C5CD4FB00A53673 /* iOSTestingWithJonTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSTestingWithJonTests.swift; sourceTree = "<group>"; };
-		FCCBC2E72C5CD4FB00A53673 /* iOSTestingWithJonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOSTestingWithJonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		FCCBC2EB2C5CD4FB00A53673 /* iOSTestingWithJonUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSTestingWithJonUITests.swift; sourceTree = "<group>"; };
-		FCCBC2ED2C5CD4FB00A53673 /* iOSTestingWithJonUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSTestingWithJonUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		FCCBC2FC2C5CD86900A53673 /* AppLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppLaunchTests.swift; sourceTree = "<group>"; };
+		FCCBC2FE2C5CD88E00A53673 /* TestingAppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestingAppDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,22 +87,99 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FCCBC2E42C5CD4FB00A53673 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FC853A662C5D134800F1844B /* HardDependencies */ = {
+			isa = PBXGroup;
+			children = (
+				FCB0C1FF2C5D4FB00037C334 /* Network */,
+				FC853A7D2C5D2C7B00F1844B /* OverrideViewController */,
+				FC853A792C5D14F400F1844B /* ClosureInitializerViewController */,
+				FC853A782C5D14E100F1844B /* InstanceInitializerViewController */,
+				FC853A732C5D14C600F1844B /* MySingletonViewController */,
+				FC853A672C5D136000F1844B /* Analytics.swift */,
+				FC853A692C5D140500F1844B /* MySingletonAnalytics.swift */,
+			);
+			path = HardDependencies;
+			sourceTree = "<group>";
+		};
+		FC853A732C5D14C600F1844B /* MySingletonViewController */ = {
+			isa = PBXGroup;
+			children = (
+				FC853A742C5D14D300F1844B /* MySingletonViewController.swift */,
+				FC853A752C5D14D300F1844B /* MySingletonViewController.xib */,
+			);
+			path = MySingletonViewController;
+			sourceTree = "<group>";
+		};
+		FC853A782C5D14E100F1844B /* InstanceInitializerViewController */ = {
+			isa = PBXGroup;
+			children = (
+				FC853A6B2C5D14AC00F1844B /* InstanceInitializerViewController.swift */,
+				FC853A6C2C5D14AC00F1844B /* InstanceInitializerViewController.xib */,
+			);
+			path = InstanceInitializerViewController;
+			sourceTree = "<group>";
+		};
+		FC853A792C5D14F400F1844B /* ClosureInitializerViewController */ = {
+			isa = PBXGroup;
+			children = (
+				FC853A6F2C5D14BE00F1844B /* ClosureInitializerViewController.swift */,
+				FC853A702C5D14BE00F1844B /* ClosureInitializerViewController.xib */,
+			);
+			path = ClosureInitializerViewController;
+			sourceTree = "<group>";
+		};
+		FC853A7A2C5D2A9000F1844B /* HardDependenciesTests */ = {
+			isa = PBXGroup;
+			children = (
+				FC853A7B2C5D2AB500F1844B /* MySingletonViewControllerTests.swift */,
+			);
+			path = HardDependenciesTests;
+			sourceTree = "<group>";
+		};
+		FC853A7D2C5D2C7B00F1844B /* OverrideViewController */ = {
+			isa = PBXGroup;
+			children = (
+				FC853A7E2C5D2C8C00F1844B /* OverrideViewController.swift OverrideViewController.swift */,
+				FC853A7F2C5D2C8C00F1844B /* OverrideViewController.swift OverrideViewController.xib */,
+			);
+			path = OverrideViewController;
+			sourceTree = "<group>";
+		};
+		FC853A822C5D2CD900F1844B /* OverrideViewControllerTests */ = {
+			isa = PBXGroup;
+			children = (
+				FC853A832C5D2CE800F1844B /* OverrideViewControllerTests.swift */,
+			);
+			path = OverrideViewControllerTests;
+			sourceTree = "<group>";
+		};
+		FCB0C1FF2C5D4FB00037C334 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				FCB0C2002C5D4FF30037C334 /* ViewController.swift */,
+				FCB0C2012C5D4FF30037C334 /* ViewController.xib */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		FCB0C2042C5D52B10037C334 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				FCB0C2072C5D52E00037C334 /* SpyURLSession.swift */,
+				FCB0C2092C5D564B0037C334 /* ViewControllerTests.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
 		FCCBC2BE2C5CD4FA00A53673 = {
 			isa = PBXGroup;
 			children = (
+				FC853A652C5CFD7600F1844B /* iOSTestingWithJon.xctestplan */,
 				FCCBC2C92C5CD4FA00A53673 /* iOSTestingWithJon */,
 				FCCBC2E02C5CD4FB00A53673 /* iOSTestingWithJonTests */,
-				FCCBC2EA2C5CD4FB00A53673 /* iOSTestingWithJonUITests */,
 				FCCBC2C82C5CD4FA00A53673 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -91,7 +189,6 @@
 			children = (
 				FCCBC2C72C5CD4FA00A53673 /* iOSTestingWithJon.app */,
 				FCCBC2DD2C5CD4FB00A53673 /* iOSTestingWithJonTests.xctest */,
-				FCCBC2E72C5CD4FB00A53673 /* iOSTestingWithJonUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -99,9 +196,10 @@
 		FCCBC2C92C5CD4FA00A53673 /* iOSTestingWithJon */ = {
 			isa = PBXGroup;
 			children = (
+				FC853A662C5D134800F1844B /* HardDependencies */,
+				FCCBC2FE2C5CD88E00A53673 /* TestingAppDelegate.swift */,
 				FCCBC2CA2C5CD4FA00A53673 /* AppDelegate.swift */,
 				FCCBC2CC2C5CD4FA00A53673 /* SceneDelegate.swift */,
-				FCCBC2CE2C5CD4FA00A53673 /* ViewController.swift */,
 				FCCBC2D02C5CD4FA00A53673 /* Main.storyboard */,
 				FCCBC2D32C5CD4FB00A53673 /* Assets.xcassets */,
 				FCCBC2D52C5CD4FB00A53673 /* LaunchScreen.storyboard */,
@@ -113,18 +211,12 @@
 		FCCBC2E02C5CD4FB00A53673 /* iOSTestingWithJonTests */ = {
 			isa = PBXGroup;
 			children = (
-				FCCBC2E12C5CD4FB00A53673 /* iOSTestingWithJonTests.swift */,
+				FCB0C2042C5D52B10037C334 /* Network */,
+				FC853A822C5D2CD900F1844B /* OverrideViewControllerTests */,
+				FC853A7A2C5D2A9000F1844B /* HardDependenciesTests */,
+				FCCBC2FC2C5CD86900A53673 /* AppLaunchTests.swift */,
 			);
 			path = iOSTestingWithJonTests;
-			sourceTree = "<group>";
-		};
-		FCCBC2EA2C5CD4FB00A53673 /* iOSTestingWithJonUITests */ = {
-			isa = PBXGroup;
-			children = (
-				FCCBC2EB2C5CD4FB00A53673 /* iOSTestingWithJonUITests.swift */,
-				FCCBC2ED2C5CD4FB00A53673 /* iOSTestingWithJonUITestsLaunchTests.swift */,
-			);
-			path = iOSTestingWithJonUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -165,24 +257,6 @@
 			productReference = FCCBC2DD2C5CD4FB00A53673 /* iOSTestingWithJonTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		FCCBC2E62C5CD4FB00A53673 /* iOSTestingWithJonUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = FCCBC2F72C5CD4FB00A53673 /* Build configuration list for PBXNativeTarget "iOSTestingWithJonUITests" */;
-			buildPhases = (
-				FCCBC2E32C5CD4FB00A53673 /* Sources */,
-				FCCBC2E42C5CD4FB00A53673 /* Frameworks */,
-				FCCBC2E52C5CD4FB00A53673 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				FCCBC2E92C5CD4FB00A53673 /* PBXTargetDependency */,
-			);
-			name = iOSTestingWithJonUITests;
-			productName = iOSTestingWithJonUITests;
-			productReference = FCCBC2E72C5CD4FB00A53673 /* iOSTestingWithJonUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -198,10 +272,7 @@
 					};
 					FCCBC2DC2C5CD4FB00A53673 = {
 						CreatedOnToolsVersion = 15.3;
-						TestTargetID = FCCBC2C62C5CD4FA00A53673;
-					};
-					FCCBC2E62C5CD4FB00A53673 = {
-						CreatedOnToolsVersion = 15.3;
+						LastSwiftMigration = 1530;
 						TestTargetID = FCCBC2C62C5CD4FA00A53673;
 					};
 				};
@@ -221,7 +292,6 @@
 			targets = (
 				FCCBC2C62C5CD4FA00A53673 /* iOSTestingWithJon */,
 				FCCBC2DC2C5CD4FB00A53673 /* iOSTestingWithJonTests */,
-				FCCBC2E62C5CD4FB00A53673 /* iOSTestingWithJonUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -232,19 +302,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				FCCBC2D42C5CD4FB00A53673 /* Assets.xcassets in Resources */,
+				FC853A812C5D2C8C00F1844B /* OverrideViewController.swift OverrideViewController.xib in Resources */,
+				FCB0C2022C5D4FF30037C334 /* ViewController.xib in Resources */,
 				FCCBC2D72C5CD4FB00A53673 /* Base in Resources */,
+				FC853A6E2C5D14AC00F1844B /* InstanceInitializerViewController.xib in Resources */,
 				FCCBC2D22C5CD4FA00A53673 /* Base in Resources */,
+				FC853A772C5D14D400F1844B /* MySingletonViewController.xib in Resources */,
+				FC853A722C5D14BE00F1844B /* ClosureInitializerViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		FCCBC2DB2C5CD4FB00A53673 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		FCCBC2E52C5CD4FB00A53673 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -258,8 +326,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FCCBC2CF2C5CD4FA00A53673 /* ViewController.swift in Sources */,
+				FC853A6A2C5D140500F1844B /* MySingletonAnalytics.swift in Sources */,
+				FC853A712C5D14BE00F1844B /* ClosureInitializerViewController.swift in Sources */,
+				FCCBC2FF2C5CD88E00A53673 /* TestingAppDelegate.swift in Sources */,
+				FCB0C2032C5D4FF30037C334 /* ViewController.swift in Sources */,
+				FC853A6D2C5D14AC00F1844B /* InstanceInitializerViewController.swift in Sources */,
+				FC853A802C5D2C8C00F1844B /* OverrideViewController.swift OverrideViewController.swift in Sources */,
+				FC853A762C5D14D400F1844B /* MySingletonViewController.swift in Sources */,
 				FCCBC2CB2C5CD4FA00A53673 /* AppDelegate.swift in Sources */,
+				FC853A682C5D136000F1844B /* Analytics.swift in Sources */,
 				FCCBC2CD2C5CD4FA00A53673 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -268,16 +343,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FCCBC2E22C5CD4FB00A53673 /* iOSTestingWithJonTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		FCCBC2E32C5CD4FB00A53673 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				FCCBC2EC2C5CD4FB00A53673 /* iOSTestingWithJonUITests.swift in Sources */,
-				FCCBC2EE2C5CD4FB00A53673 /* iOSTestingWithJonUITestsLaunchTests.swift in Sources */,
+				FCB0C20A2C5D564B0037C334 /* ViewControllerTests.swift in Sources */,
+				FC853A7C2C5D2AB500F1844B /* MySingletonViewControllerTests.swift in Sources */,
+				FCB0C2082C5D52E00037C334 /* SpyURLSession.swift in Sources */,
+				FCCBC2FD2C5CD86900A53673 /* AppLaunchTests.swift in Sources */,
+				FC853A842C5D2CE800F1844B /* OverrideViewControllerTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,11 +358,6 @@
 			isa = PBXTargetDependency;
 			target = FCCBC2C62C5CD4FA00A53673 /* iOSTestingWithJon */;
 			targetProxy = FCCBC2DE2C5CD4FB00A53673 /* PBXContainerItemProxy */;
-		};
-		FCCBC2E92C5CD4FB00A53673 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = FCCBC2C62C5CD4FA00A53673 /* iOSTestingWithJon */;
-			targetProxy = FCCBC2E82C5CD4FB00A53673 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -496,6 +561,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = M32J6DS3B8;
@@ -504,9 +570,14 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = AhmedAhmed.iOSTestingWithJonTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOSTestingWithJon.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/iOSTestingWithJon";
 			};
 			name = Debug;
@@ -516,6 +587,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = M32J6DS3B8;
@@ -524,46 +596,14 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = AhmedAhmed.iOSTestingWithJonTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOSTestingWithJon.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/iOSTestingWithJon";
-			};
-			name = Release;
-		};
-		FCCBC2F82C5CD4FB00A53673 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = M32J6DS3B8;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = AhmedAhmed.iOSTestingWithJonUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = iOSTestingWithJon;
-			};
-			name = Debug;
-		};
-		FCCBC2F92C5CD4FB00A53673 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = M32J6DS3B8;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = AhmedAhmed.iOSTestingWithJonUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = iOSTestingWithJon;
 			};
 			name = Release;
 		};
@@ -593,15 +633,6 @@
 			buildConfigurations = (
 				FCCBC2F52C5CD4FB00A53673 /* Debug */,
 				FCCBC2F62C5CD4FB00A53673 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		FCCBC2F72C5CD4FB00A53673 /* Build configuration list for PBXNativeTarget "iOSTestingWithJonUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				FCCBC2F82C5CD4FB00A53673 /* Debug */,
-				FCCBC2F92C5CD4FB00A53673 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
